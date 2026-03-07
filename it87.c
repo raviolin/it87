@@ -7090,6 +7090,9 @@ static const struct dmi_system_id it87_dmi_table[] __initconst = {
 	IT87_DMI_MATCH_GBT("X870 EAGLE WIFI7", it87_dmi_cb,
 			   &it87_acpi_ignore),
 		/* IT8696E */
+	IT87_DMI_MATCH_GBT("X870E AORUS ELITE WIFI7", it87_dmi_cb,
+			   &it87_acpi_ignore),
+		/* IT8696E */
 	IT87_DMI_MATCH_VND("ASUSTeK COMPUTER INC.", "PRIME B350-PLUS",
 			   it87_dmi_cb, NULL),
 		/* IT8655E */
